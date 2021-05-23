@@ -5,10 +5,11 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='3CS is Sri Lanka’s premier web design and digital marketing agency. We celebrated two decades of industry leading operations in 2017. We have provided state-of-the-art solutions to over 1000 corporate and institutional clients across 57 countries. Our services include mobile responsive web design and maintenance, website security, search marketing, social media marketing and professional photography.')
+        meta(name="keywords" content='web design, search engine optimisation, ecommerce solutions, digital marketing')
+        meta(name='author', content='3CS')
 
-        title Agency - Start Bootstrap Theme
+        title 3CS
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -29,7 +30,7 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand(href='#page-top')
-                    img(src='assets/img/navbar-logo.svg', alt='...')
+                    img(src='assets/img/3cs-logo.svg', alt='3cs White logo')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ms-1
@@ -40,53 +41,65 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#portfolio') Portfolio
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#awards') Awards  
                         li.nav-item
-                            a.nav-link(href='#team') Team
+                            a.nav-link(href='#team') Team 
+                        li.nav-item
+                            a.nav-link(href='#about') Ourt Story
                         li.nav-item
                             a.nav-link(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Our Studio!
-                .masthead-heading.text-uppercase It's Nice To Meet You
+                //- .masthead-subheading Welcome To Our Studio!
+                .masthead-heading-thin.text-uppercase  World-Class Web Design Solutions
                 a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
 
+            
         // Services
         section#services.page-section
             .container
+                .row.text-center
+                        p.text-muted.
+                            “3CS is Sri Lanka’s premier web design and digital marketing agency. 
+                            With over two decades of industry experience, multiple web design awards 
+                            every year and a blue-chip clientele, we offer an unparalleled service. 
+                            We offer highly personalized, bespoke solutions to an exclusive client list. 
+                            Our solutions include responsive web design, digital marketing and professional photography.”
+            .container
                 .text-center
                     h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted 
                 .row.text-center
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 E-Commerce
-                        p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            i.fas.fa-laptop-code.fa-stack-1x.fa-inverse
+                        h4.my-3 Responsive Website Design
+                        p.text-muted.
+                           
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Responsive Design
+                            i.fas.fa-search-dollar.fa-stack-1x.fa-inverse
+                        h4.my-3 Digital Marketing
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                           
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Web Security
+                            i.fab.fa-opencart.fa-stack-1x.fa-inverse
+                            //- <span class="material-icons-outlined">important_devices</span>
+                        
+                        h4.my-3 eCommerce Solutions
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
+                            
         // Portfolio Grid
         section#portfolio.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -97,8 +110,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Keells
+                                .portfolio-caption-subheading.text-muted 
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
@@ -108,8 +121,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading News 1st
+                                .portfolio-caption-subheading.text-muted 
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
@@ -119,8 +132,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
+                                .portfolio-caption-heading LOLC Finance
+                                .portfolio-caption-subheading.text-muted 
                     .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         // Portfolio item 4
                         .portfolio-item
@@ -130,8 +143,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
+                                .portfolio-caption-heading Imperial Teas
+                                .portfolio-caption-subheading.text-muted 
                     .col-lg-4.col-sm-6.mb-4.mb-sm-0
                         // Portfolio item 5
                         .portfolio-item
@@ -141,8 +154,8 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
+                                .portfolio-caption-heading Kia
+                                .portfolio-caption-subheading.text-muted 
                     .col-lg-4.col-sm-6
                         // Portfolio item 6
                         .portfolio-item
@@ -152,56 +165,69 @@ html(lang='en')
                                         i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                                .portfolio-caption-heading Capitol TwinPeaks
+                                .portfolio-caption-subheading.text-muted 
 
         // About
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Our Story
+                    h3.section-subheading.text-muted 
                 ul.timeline
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2009-2011
-                                h4.subheading Our Humble Beginnings
+                                h4 May 2018
+                                h4.subheading 3CS Launches New Website for LOLC Finance
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 March 2011
-                                h4.subheading An Agency is Born
+                                h4 July 2018 
+                                h4.subheading News 1st Wins Gold Medal for Best Media Website
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                   
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 December 2015
-                                h4.subheading Transition to Full Service
+                                h4 July 2018
+                                h4.subheading 3CS Wins Best Web Developer Award for 7th Consecutive Time
+
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                   
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 July 2020
-                                h4.subheading Phase Two Expansion
+                                h4 December 2018
+                                h4.subheading 3CS Wins Best Finance Website Award for LOLC Finance Website
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                   
+                    
+                    li.timeline-image
+                        .timeline-image
+                            img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='...')
+                        .timeline-panel
+                            .timeline-heading
+                                h4 3CS Launches New Website for Kia Motors Sri Lanka
+                                h4.subheading 
+                            .timeline-body
+                                p.text-muted
+                                    
+                    
                     li.timeline-inverted
                         .timeline-image
                             h4
@@ -211,67 +237,80 @@ html(lang='en')
                                 br
                                 | Story!
 
+        //Awards
+        section#awards.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Awards
+                    h3.section-subheading.text-muted
+                    
+                        .row.align-items-center
+                            .col-md-3.col-sm-6.my-3
+                            
+                                h3 Best Developer 2019
+                            .col-md-3.col-sm-6.my-3
+
+                                h3 Best Developer 2018
+                            .col-md-3.col-sm-6.my-3
+
+                                h3 Best Developer 2017
+                            .col-md-3.col-sm-6.my-3
+
+                                h3 Best Developer 2015
+
+                            .col-md-3.col-sm-6.my-3
+
+                                h3 Best Developer 2014
+
+                            .col-md-3.col-sm-6.my-3
+
+                                h3 SLT Zero One Award 2018
+                       
         // Team
         section#team.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted 
                 .row
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
-                            h4 Parveen Anand
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
+                            img.mx-auto(src='assets/img/team/1.jpg', alt='...')
+                            h4 Prof. C. M. Madduma Bandara
+                            p.text-muted Chairman
+                            
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                            h4 Diana Petersen
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
+                            img.mx-auto(src='assets/img/team/2.jpg', alt='...')
+                            h4 Sandaruwan Madduma Bandara
+                            p.text-muted CEO
+                            
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                            h4 Larry Parker
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
+                            img.mx-auto(src='assets/img/team/3.jpg', alt='...')
+                            h4 Inthusan Raveendran
+                            p.text-muted Associate Web Designer
+                            
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
-        // Clients
-        div.py-5
-            .container
-                .row.align-items-center
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
+        //- // Clients
+        //- div.py-5
+        //-     .container
+        //-         .row.align-items-center
+        //-             .col-md-3.col-sm-6.my-3
+                        
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+                        
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+                        
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+                        
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
 
         // Contact
         section#contact.page-section
@@ -304,18 +343,22 @@ html(lang='en')
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-start
-                        | Copyright &copy; Your Website
+                        | Copyright &copy; 3CS
                         // This script automatically adds the current year to your website footer
                         // (credit: https://updateyourfooter.com/)
                         script.
                             document.write(new Date().getFullYear());
                     .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
-                            i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
+                        
+                        a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/3cs.web.design.srilanka/')
                             i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
+                        a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/company/3cs-web-design/')
                             i.fab.fa-linkedin-in
+                        a.btn.btn-dark.btn-social.mx-2(href='https://mobile.twitter.com/3cslk')
+                            i.fab.fa-twitter
+                        a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/3cs.digital.marketing/?igshid=1ioltq7e7gtr1')
+                            i.fab.fa-instagram 
+                        
                     .col-lg-4.text-lg-end
                         a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
                         a.link-dark.text-decoration-none(href='#!') Terms of Use
