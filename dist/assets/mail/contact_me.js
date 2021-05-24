@@ -31,6 +31,8 @@ $(function () {
                 },
                 cache: false,
                 success: function () {
+
+                    console.log("send msg button")
                     // Success message
                     $("#success").html("<div class='alert alert-success'>");
                     $("#success > .alert-success")
