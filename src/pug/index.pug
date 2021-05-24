@@ -53,19 +53,22 @@ html(lang='en')
             .container
                 //- .masthead-subheading Welcome To Our Studio!
                 .masthead-heading-thin.text-uppercase  World-Class Web Design Solutions
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                a.btn.btn-danger.btn-xl.text-uppercase(href='#contact') ENQUIRE NOW
 
-            
-        // Services
-        section#services.page-section
+        div.py-5
             .container
                 .row.text-center
-                        p.text-muted.
+                        p.fa-10.text-muted.text-primary.
                             “3CS is Sri Lanka’s premier web design and digital marketing agency. 
                             With over two decades of industry experience, multiple web design awards 
                             every year and a blue-chip clientele, we offer an unparalleled service. 
                             We offer highly personalized, bespoke solutions to an exclusive client list. 
                             Our solutions include responsive web design, digital marketing and professional photography.”
+            
+        // Services
+        section#services.page-section
+            
+                        
             .container
                 .text-center
                     h2.section-heading.text-uppercase Services
@@ -107,7 +110,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Keells
@@ -118,7 +121,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading News 1st
@@ -129,7 +132,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading LOLC Finance
@@ -140,7 +143,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Imperial Teas
@@ -151,7 +154,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Kia
@@ -162,7 +165,7 @@ html(lang='en')
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        //- i.fas.fa-plus.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Capitol TwinPeaks
@@ -317,7 +320,7 @@ html(lang='en')
             .container
                 .text-center
                     h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading.text-muted 
                 form#contactForm
                     .row.align-items-stretch.mb-5
                         .col-md-6
@@ -334,9 +337,13 @@ html(lang='en')
                             .form-group.form-group-textarea.mb-md-0
                                 textarea#message.form-control(placeholder='Your Message *', required='required')
                                 p.help-block.text-danger
+
+                        .col-md-6
+                            
+
                     .text-center
                             #success
-                            button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
+                            button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Submit
 
         // Footer
         footer.footer.py-4

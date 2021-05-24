@@ -10845,7 +10845,7 @@ body {
 
 p {
   line-height: 1.75;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 .page-section {
@@ -11276,9 +11276,10 @@ header.masthead .masthead-heading-thin {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/map-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 section#contact .section-heading {
   color: #fff;
